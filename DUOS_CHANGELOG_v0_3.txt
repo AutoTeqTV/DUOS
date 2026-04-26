@@ -1,0 +1,14 @@
+DUOS FlightHUD v0.3 Visual Identity Pass
+
+Changed:
+- HUD label now shows DUOS FlightHUD v0.3.
+- Added DUOS // FLIGHT OPERATIONS header and status strip.
+- Left info panel now starts with DUOS TELEMETRY.
+- Top tab labels now display SYS / NAV / RADAR / HIDE.
+- Existing internal tab states remain INFO / ORBIT / SCOPE / HIDE for compatibility.
+- Warning stack now uses cleaner DUOS labels such as BRAKE: ENGAGED, GEAR: EXTENDED, HOVER, ALT HOLD, AP, and ALIGN.
+
+Preserved:
+- ArchHUD flight behavior.
+- Autopilot, radar, shield, AGG, throttle, orbit, and control logic.
+- Dependency folder isolation through duos_archhud/.
