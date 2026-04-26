@@ -6,9 +6,9 @@ DUOS is a modular Dual Universe HUD and ship operating system project. The first
 
 ## Current Build
 
-**DUOS FlightHUD v0.2 - Visual Identity Pass**
+**DUOS FlightHUD v0.3 - Layout Cleanup**
 
-This version focuses on getting the fork safely branded and working before deeper code restructuring.
+This version keeps the v0.2 branding but moves the DUOS identity out of the center flight-data area so it no longer overlaps the `TRAVEL` mode label or top-center HUD instruments.
 
 Current changes include:
 
@@ -16,9 +16,10 @@ Current changes include:
 - DUOS boot/status console messages
 - DUOS-style cyan/orange visual palette
 - Updated top navigation labels
-- `DUOS // FLIGHT OPERATIONS` header
 - `DUOS TELEMETRY` panel label
 - Cleaner warning/status text
+- Center header overlap removed
+- Bottom-left DUOS operations/status strip
 - ArchHUD compatibility mode retained
 
 ## Dual Universe Install Layout
@@ -31,6 +32,8 @@ Expected layout:
 custom/
   DUOS_FlightHUD.conf
   DUOS_FlightHUD_GFN.conf
+  README_DUOS_INSTALL.txt
+  DUOS_CHANGELOG_v0_3.txt
   duos_archhud/
     apclass.lua
     atlasclass.lua
